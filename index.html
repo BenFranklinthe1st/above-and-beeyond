@@ -1,1 +1,99 @@
 
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Above and Beyond</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display"
+    rel="stylesheet">
+  </head>
+
+  <body>
+
+  <span style="font-size:25px; font-family:'Major Mono Display';
+  cursor:pointer" onclick="openNav()">&#9776; Navigate </span>
+
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Growth</a>
+    <a href="#">Resources</a>
+    <a href="#">Mental Health</a>
+    <a href="#">Reading</a>
+    <a href="#">Goals</a>
+  </div>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+
+<main>
+
+<div id="home">
+    <h1>ABOVE-and-BEYOND<img src="A+A.png" alt = "logo" style = "width:60px;height:60px;"></h1>
+    <h2>a place for students to grow</h2>
+</div>
+
+<div id="about">
+<div class="parallelogram">
+  <span>
+    <h2 style=" background: white;">
+      ABOUT
+    </h2>
+    <p>
+      Nowadays, parents are really busy with work and it's much harder for them to spend time with their children.
+      As a result, many kids don't have the resources they need for school and life.
+  This website allows students to find out about local events,
+  certificates, opportunities, and much more resources
+  that will make them world ready.
+</p>
+  </span>
+</div>
+<img class= "medium-image" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+</div>
+<div id="growth">
+  <p>
+What is the Growth Mindest?
+</p>
+<iframe width="713" height="401" src="https://www.youtube.com/embed/BgHSe2tq-sI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div>
+  <div id="resources">
+    <p>
+  This is a list of resources that I have found online, most of them are totally free!
+  This list contains some of what I believe are good and reliable, but it misses a lot.
+  If you have any suggestions for any of the subjects please contact me.
+</p>
+  <div>
+    <div id="mental-health">
+      <p>
+    #MentalMatters
+
+  </p>
+    <div>
+      <div id="readings">
+        <p>
+      Books are a great way to learn lesson and are by far the best resources.
+      It's by far the best investment, your are paying around 30$ for ideas that could change your entire perception of the world.
+      Here is a list of books that I've read and plan to read.
+    </p>
+      <div>
+        <div id="goals">
+          <p>
+        Here is a list of goals that I am currently working on in order to grow and improve.
+        I recommend you to create your own list, be reasonable and use the S.M.A.R.T. goal as a guideline.
+        Don't let yourself down if you aren't able to achieve it, the struggle is part of the process.
+        Trust the process it's waht makes you better not the reward.
+      </p>
+        <div>
+</main>
+  </body>
+</html>
